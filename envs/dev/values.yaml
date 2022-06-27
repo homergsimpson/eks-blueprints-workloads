@@ -2,7 +2,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://homergsimpson/aws-samples/eks-blueprints-workloads
+    repoURL: https://github.com/homergsimpson/eks-blueprints-workloads
     targetRevision: main
   ingress:
     host: dev.example.com
