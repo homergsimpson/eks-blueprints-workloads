@@ -17,7 +17,7 @@ spec:
       - name: skiapp
         image: sharepointoscar/skiapp:v2
         ports:
-      - containerPort: 8080
+        - containerPort: 8080
         resources:
           requests:
             memory: "64Mi"
